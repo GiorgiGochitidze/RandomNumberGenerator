@@ -103,3 +103,9 @@ input:focus{
   transform: scale(1.1);
   background-color: rgba(255, 255, 255, 0.123);
 }
+
+@media screen and (max-width: 772px) {
+  .rnd-number-generator-container{
+    width: 100%;
+  }
+}
