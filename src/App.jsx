@@ -4,10 +4,12 @@ import {useState} from 'react';
 
 function App() {
 
+  //defines a value of first second and results values
   const [minNum, setMinNum] = useState("0")
   const [maxNum, setMaxNum] = useState("0")
   const [sum, setSum] = useState(null)
 
+  // function wich defines a result of first and second numbers uses randomizer
   function handleSum() {
     const randomNumber = Math.floor(Math.random() * (maxNum - minNum + 1)) + parseInt(minNum);
     setSum(randomNumber);
